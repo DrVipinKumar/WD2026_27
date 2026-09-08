@@ -16,7 +16,7 @@ const Registration = () => {
     setCheck(true)
   };
   return (
-    <div className="w-100 mx-auto">
+    <div className="w-100 mx-auto vh-100">
       <h2 className="bg-warning mt-3 text-center">Registration Form</h2>
       <form
         className="d-flex flex-column w-50 mx-auto gap-3 mt-5"

@@ -18,7 +18,7 @@ const CounterP = () => {
     setCounters(counters.map((row)=>({...row,count:0})))
   }
   return (
-    <div className="container">
+    <div className="container vh-100">
       {counters.map((counter) => (
         <Counter
           key={counter.id}
